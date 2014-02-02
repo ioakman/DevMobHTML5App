@@ -40,16 +40,23 @@
     <body>
 
         <!-- Add your site or application content here -->
-		<p>Hello world!</p>
+		<div style="padding:20;border-radius:30px;border:5px solid #ffaa00">
+		<p><h1 align=center> Hello world! Roberta is coming ...</h1></p>
+		</div>
+		<p></p>
 		<!-- When the browser parses the <source> tag, it uses the optional type attribute
 		     to help decide which file to download and play. -->
-		<video width="320" height="240" controls>
+		<div style="padding:20;border-radius:30px;border:5px solid #ffaa00">
+		<p align=center> <video width="320" height="240" controls>
   			<source src="myPrivateMovie.mp4" type="video/mp4">
+			<source src="myPrivateMovie.ogv" type='video/ogg; codecs="theora, vorbis"'/>
+			<source src="myPrivateMovie.webm" type='video/webm' >			
   			<track	src="myPrivateStory-en.vtt" label="English subtitles" 
          			kind="subtitles" srclang="en" default>
          	Sorry, your browser does not support the video tag.
-		</video> 
-				
+		</video>
+		</p>
+		</div>						
 		<script src="js/vendor/zepto.min.js"></script>
         <script src="js/helper.js"></script>
 
